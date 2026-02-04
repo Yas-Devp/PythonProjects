@@ -1,0 +1,29 @@
+name:Iphone 17
+category:phones
+stock:125
+price:1250
+
+name:macbook air m2
+category:pc/laptops
+stock:20
+price:2050
+
+name:Samsung s23 ultra
+category:phones
+stock:122
+price:1125.50
+
+name:Playstation 5
+category:console
+stock:20
+price:549.99
+
+name:Ultra gaming pc
+category:pc/laptops
+stock:100
+price:1200.89
+
+name:iwatch
+category:phones
+stock:233
+price:250.0
