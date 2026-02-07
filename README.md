@@ -36,13 +36,12 @@ Welcome to my Python programming journey! This repository serves as a portfolio 
 ![Git](https://img.shields.io/badge/Git-Version_Control-%23F05032?logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-%23181717?logo=github)
 ![VS Code](https://img.shields.io/badge/VS_Code-Editor-%23007ACC?logo=visualstudiocode)
-
+![Sublime Text 4](https://img.shields.io/badge/Sublime_Text_4-Editor-%23FF6A00?logo=sublimetext)
 
 ## 📚 How to Navigate
 
 1. **Browse by Project**: Each folder contains a complete Python application
-2. **Check READMEs**: Individual project READMEs explain setup and features
-3. **Run Projects**: Most projects can be run with `python main.py`
+2. **Check READMElls**: Most projects can be run with `python main.py`
 4. **Review Code**: All code is documented and structured for learning
 
 ## 🎯 Goals for This Repository
