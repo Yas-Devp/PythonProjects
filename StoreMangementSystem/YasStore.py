@@ -1,27 +1,17 @@
 import os
 
+#constants
 STORE_NAME = "Yastore"
-STORE_RATE = "4.7"
+STORE_RATE = 4.7
 STORE_PLACE = "agadir , morocco"
 STORE_PRICE_IN = "$"
 
+#variables
 admin = False
-
-'''
-products = [
-             {"name": "Iphone 17" ,
-              "category": "phones",
-              "stock" : 125,
-              "price" : 1250
-             },
-             {"name": "macbook air m2",
-              "category" : "pc/laptops",
-              "stock" : 20,
-              "price" : 2050
-             }
-]
-'''
 products = []
+basket = []
+total = 0.0
+
 def setup_db():
     global products
     with open('data', 'r') as file:
@@ -41,15 +31,34 @@ def setup_db():
     
         
 
-def is_product_exist(name):
+def get_product(name):
     for i in products:
-        if i.name.lower() == name.lower():
-            return True
-    return False
+        if i["name"].lower() == name.lower():
+            return i
+    return {}
     
+
+def buy_product():
+    show_products()
+    global basket
+    global products
+    global total
     
+    clear_screen()
+    name = input("enter the name exact of the product : ")
+    size = int(input("how much you want : "))
+    
+    product = get_product(name)
+    
+    if product != {}:
+        basket.append({"name": product["name"], "quantity" : size})
+        for i in range(size):
+            total += product["price"]
+    
+    print(f"{size} {name} added to basket !")
+   
 def login_as_admin(a=3):
-    os.system('clear')
+    clear_screen()
     attemps = a
     global admin
     
@@ -72,7 +81,7 @@ def login_as_admin(a=3):
         login_as_admin(attemps)
     
 def add_product():
-    os.system('clear')
+    clear_screen()
     global admin
     
     if not admin :
@@ -83,7 +92,7 @@ def add_product():
     name = input("enter product name : ")
     category = input("choose category : \n #phones\n #pc/laptops\n\n => your choice : ")
     stock = int(input("quantity to add to stock : "))
-    price = float(input("specify the price ($): "))
+    price = float(input(f"specify the price ({STORE_PRICE_IN}): "))
     
     new_product = {"name": name, "category": category, "stock": stock, "price": price}
     
@@ -99,47 +108,49 @@ def add_product():
         file.writelines(data_to_add)
 
 def show_products():
-    os.system('clear')
+    clear_screen()
     print("="*25)
     for i in products :
         print(f' name : {i["name"]}')
         print(f' category : {i["category"]}')
         print(f' stock : {i["stock"]}')
-        print(f' price : {i["price"]}')
+        print(f' price : {i["price"]}{STORE_PRICE_IN}')
         print("="*25)
-        
 
+def show_basket():
+    clear_screen()
+    print("="*25)
+    for i in basket :
+        print(f'{i["name"]} × {i["quantity"]}')
+        print("="*25)
+    print("=>total :", total , STORE_PRICE_IN)
+    print()
+
+def clear_screen():
+    os.system('clear')
+    list_()
+    
 def banner():
-    print(f"Welcome to {STORE_NAME} (rate : {STORE_RATE}★")
-def user_list():
-   os.system('clear')
+    print(f"Welcome to {STORE_NAME} (rate : {STORE_RATE}", "★"* int(STORE_RATE) + ")")
+    
+def list_():
    print('|==============================|')
    print('|       - Store List -         |')
    print('|                              |')
    print('| 1- show products             |')
    print('| 2- buy product               |')
    print('| 3- show store list            |')
-   print('| 4- quit                      |')
-   print('|==============================|')
-
-def admin_list():
-   os.system('clear')
-   print('|==============================|')
-   print('|       - Store List -         |')
-   print('|                              |')
-   print('| 1- show products             |')
-   print('| 2- buy product               |')
-   print('| 3- show store list            |')
-   print('| 4- quit                      |')
-   print('| 5- login as admin / logout |')
-   print('| 6- add new product          |')
+   print('| 4- login as admin / logout |')
+   if admin :
+      print('| 41- add new product          |')
+   print('| 5- show basket             |')
+   print('| 99- quit                      |')
    print('|==============================|')
 
 
-os.system('clear')
 setup_db()
 banner()
-user_list()
+list_()
 
 while True:
     choice = int(input("choose the number of service you want : "))
@@ -148,18 +159,20 @@ while True:
         case 1:
             show_products()
         case 2:
-            print('this feature isn\'t added yet')
+            buy_product()
         case 3:
-            admin_list() if admin else user_list()
+            list_()
         case 4:
-            break
-        case 5:
             if admin :
                 admin = False
             else :
                 login_as_admin()
-        case 6:
+        case 41:
             add_product()
+        case 5:
+            show_basket()
+        case 99:
+            break
         case _ :
             print('please specify a number of service !')
         
