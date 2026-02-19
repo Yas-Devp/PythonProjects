@@ -10,53 +10,16 @@
 <h4><strong>Description:</strong></h4>
 <p>&nbsp;File Organizer X is a handy program developed in Python that allows you to organize and sort your files quickly and efficiently. With this tool, you can easily categorize and manage your files by type, size, date, and more. Say goodbye to cluttered folders and messy desktops, and start organizing your files with ease today!</p>
 
-<h4> Screenshots : </h4>
-
 <h4>Screenshots:</h4>
 
-<div style="position: relative; width: 100%; max-width: 600px; margin: 20px auto; background: #020019; border-radius: 8px; overflow: hidden;">
-  <div style="position: relative; width: 100%; padding-bottom: 150%;">
-    <img id="slider-image" src="https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg" 
-         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" alt="FO_X Screenshots">
-  </div>
+<details>
+  <summary>📸 Click to view gallery</summary>
   
-  <!-- Navigation Buttons -->
-  <button onclick="changeSlide(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.7); border: none; padding: 10px 15px; cursor: pointer; border-radius: 4px; font-size: 18px;">❮</button>
-  <button onclick="changeSlide(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.7); border: none; padding: 10px 15px; cursor: pointer; border-radius: 4px; font-size: 18px;">❯</button>
+  ![FO_X Screenshot 1](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg)
+  ![FO_X Screenshot 2](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MS5qcGc=/250x600/7zO2CD.jpg)
+  ![FO_X Screenshot 3](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3Mi5qcGc=/250x600/wlCClp.jpg)
   
-  <!-- Indicators -->
-  <div style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px;">
-    <span onclick="currentSlide(0)" style="width: 10px; height: 10px; background: white; border-radius: 50%; cursor: pointer;"></span>
-    <span onclick="currentSlide(1)" style="width: 10px; height: 10px; background: rgba(255,255,255,0.5); border-radius: 50%; cursor: pointer;"></span>
-    <span onclick="currentSlide(2)" style="width: 10px; height: 10px; background: rgba(255,255,255,0.5); border-radius: 50%; cursor: pointer;"></span>
-  </div>
-</div>
-
-<script>
-  const slides = [
-    "https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg",
-    "https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MS5qcGc=/250x600/7zO2CD.jpg",
-    "https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3Mi5qcGc=/250x600/wlCClp.jpg"
-  ];
-  let currentIndex = 0;
-  
-  function changeSlide(n) {
-    currentIndex = (currentIndex + n + slides.length) % slides.length;
-    updateSlider();
-  }
-  
-  function currentSlide(n) {
-    currentIndex = n;
-    updateSlider();
-  }
-  
-  function updateSlider() {
-    document.getElementById('slider-image').src = slides[currentIndex];
-    document.querySelectorAll('[onclick*="currentSlide"]').forEach((el, i) => {
-      el.style.background = i === currentIndex ? 'white' : 'rgba(255,255,255,0.5)';
-    });
-  }
-</script>
+</details>
 
 <h4>Key Features:</h4>
 <p>- Sort files by type, size, date, and more</p>
