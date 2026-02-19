@@ -3,6 +3,6 @@
 
 ## Screenshots
 
-![FO_X Gameplay](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg)
-![FO_X Menu](./screenshots/screenshot2.png)
-![FO_X Gameplay 2](./screenshots/screenshot3.png)
+![FO_X Img1](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg)
+![FO_X Img2](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MS5qcGc=/250x600/7zO2CD.jpg)
+![FO_X Img3](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MS5qcGc=/250x600/wlCClp.jpg)
