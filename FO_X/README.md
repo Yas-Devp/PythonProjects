@@ -12,7 +12,9 @@
 
 <h4> Screenshots : </h4>
 
-|![FO_X Img1](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg)|![FO_X Img2](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MS5qcGc=/250x600/7zO2CD.jpg)|![FO_X Img3](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3Mi5qcGc=/250x600/wlCClp.jpg)|
+|---|---|---|
+| ![FO_X Img1](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg) | ![FO_X Img2](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MS5qcGc=/250x600/7zO2CD.jpg) | ![FO_X Img3](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3Mi5qcGc=/250x600/wlCClp.jpg) |
+|---|---|---|
 
 <h4>Key Features:</h4>
 <p>- Sort files by type, size, date, and more</p>
