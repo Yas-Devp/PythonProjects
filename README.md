@@ -19,6 +19,7 @@ Welcome to my Python programming journey! This repository serves as a portfolio 
 | Project | Description | Progress | Technologies |
 |---------|-------------|----------|--------------|
 | **Store Management System** | Command-line store application with admin/user roles | 85% | Python, File I/O |
+|---|---|---|---|
 | **FO_X** | Simple GUI python application to organize your files | 80% | Python, Tkinter |
 
 ## 🛠️ Technologies & Skills
