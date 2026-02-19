@@ -1,6 +1,6 @@
-<p class="text-center"></p>
-<h6 class="text-center"><img title="FO_X icon" alt="FO_X icon" src="https://img.itch.zone/aW1nLzI0MDgyNDI3LnBuZw==/original/CG12eO.png"></h6>
-<h6 class="text-center">Title:&nbsp;</h6>
+
+<p class="text-center"><img title="FO_X icon" alt="FO_X icon" src="https://img.itch.zone/aW1nLzI0MDgyNDI3LnBuZw==/original/CG12eO.png"></p>
+<p class="text-center">Title:&nbsp;</p>
 <h2 class="text-center">File Organizer X</h2>
 <p><br></p>
 
