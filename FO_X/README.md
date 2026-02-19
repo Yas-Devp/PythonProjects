@@ -9,11 +9,11 @@
 
 <h4><strong>Description:</strong></h4>
 <p>&nbsp;File Organizer X is a handy program developed in Python that allows you to organize and sort your files quickly and efficiently. With this tool, you can easily categorize and manage your files by type, size, date, and more. Say goodbye to cluttered folders and messy desktops, and start organizing your files with ease today!</p>
-## Screenshots
 
-![FO_X Img1](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg)
-![FO_X Img2](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MS5qcGc=/250x600/7zO2CD.jpg)
-![FO_X Img3](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3Mi5qcGc=/250x600/wlCClp.jpg)
+<h4> Screenshots : </h4>
+
+|![FO_X Img1](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg)|![FO_X Img2](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MS5qcGc=/250x600/7zO2CD.jpg)|![FO_X Img3](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3Mi5qcGc=/250x600/wlCClp.jpg)|
+
 <h4>Key Features:</h4>
 <p>- Sort files by type, size, date, and more</p>
 <p>- Create custom categories for easy organization</p>
