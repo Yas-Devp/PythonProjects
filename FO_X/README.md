@@ -12,9 +12,19 @@
 
 <h4> Screenshots : </h4>
 
-|---|---|---|
-| ![FO_X Img1](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg) | ![FO_X Img2](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MS5qcGc=/250x600/7zO2CD.jpg) | ![FO_X Img3](https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3Mi5qcGc=/250x600/wlCClp.jpg) |
-|---|---|---|
+<h4>Screenshots:</h4>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 20px 0;">
+  <a href="https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg" target="_blank">
+    <img src="https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MC5qcGc=/250x600/VAkr8s.jpg" style="width: 100%; border-radius: 8px; cursor: pointer;" alt="Screenshot 1">
+  </a>
+  <a href="https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MS5qcGc=/250x600/7zO2CD.jpg" target="_blank">
+    <img src="https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3MS5qcGc=/250x600/7zO2CD.jpg" style="width: 100%; border-radius: 8px; cursor: pointer;" alt="Screenshot 2">
+  </a>
+  <a href="https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3Mi5qcGc=/250x600/wlCClp.jpg" target="_blank">
+    <img src="https://img.itch.zone/aW1hZ2UvNDAzOTYzMS8yNDA5NDE3Mi5qcGc=/250x600/wlCClp.jpg" style="width: 100%; border-radius: 8px; cursor: pointer;" alt="Screenshot 3">
+  </a>
+</div>
 
 <h4>Key Features:</h4>
 <p>- Sort files by type, size, date, and more</p>
